@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+/* ------------------------------------------------------- Corpo da pag---/ */
+body{
+    padding:200px ;
+    background-image: url(../imag/imag1.jpg);
+}
+/* ----------------------------------------------------------Cabeçalho-- */
+header{
+  background-color:rgb(87, 93, 95);
+  text-align: center;
+  border: solid black;
+  font-family: 'Work Sans', sans-serif;
+  width:500px ;
+  margin: auto;
+  color: #171615;
+    text-shadow: 
+             -1px -1px 0px #FFF, 
+             -1px 1px 0px #FFF,      
+              1px -1px 0px #FFF,    
+              1px 0px 0px #FFF;
+}
+
+img{
+    width:500px ;
+    height:200px ;
+    border: solid black;
+    border-radius: 50px;
+}
+/* ------------------------------------------------------Formulario-- */
+form{
+    background-color:rgb(255, 255, 255) ;
+    border: solid black;
+    text-align: center;
+    width:500px ;
+    height:300px ;
+    margin: auto;
+    padding: 25px;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.botao{
+    background-color: greenyellow;
+    border-color:rgb(25, 75, 25) ;
+    border-radius: 10px;
+    width: 80px;
+    transition: 0.2s;
+}
+.botao:hover{
+    transform: scale(1.07);
+}
+
+
+

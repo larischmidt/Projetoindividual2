@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversordemedidas</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- /*------------------------------------------------cabeçalho--*/ -->
+    <header>
+      <img src="./imag/imag2.jpg" />
+      <h1>CONVERSOR DE UNIDADES</h1>
+    </header>
+    <!-- /*------------------------------------------------Campo de formulario para conversão de medidas--*/ -->
+    <main>
+      <form>
+        <section class=" informacao2">
+          <label> Digite um valor para conversão rápida </label>
+          <input id="valorDeEntrada" type="text"> 
+        </section>
+        <section class="informacao1">
+          <label>Selecione uma categoria </label>
+        </section>
+        <select id="categoria">
+          <option>            </option>
+          <option value="comprimento">Comprimento</option>
+          <option value="peso">Peso</option>
+          <option value="temperatura">Temperatura</option>
+        </select>
+
+        <div>
+          <label> entrada</label>
+        </div>
+        <select id="entrada">
+          <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp      </option>
+        </select>
+        <div>
+          <label> saida</label>
+        </div>
+        <select id="saida">
+          <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</option>
+        </select>
+        <br/> <br/>
+        <section>
+          <button class="botao">converter</button>
+        </section>
+        <br /> <br/>
+        <label>Resultado é </label>
+        <span> </span>
+      </form>
+    </main>
+    
+
+    <script src="./script.js"></script>
+  </body>
+</html>
