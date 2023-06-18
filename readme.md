@@ -20,7 +20,7 @@
 <h2>Como ultizar</h2>
 <ul>
 <li>bash</li>
-<li>git clone </li>
+<li>git clone https://github.com/larischmidt/Projetoindividual2.git </li>
 </ul>
 </div>
 <h1>Considerações finais</h1>
