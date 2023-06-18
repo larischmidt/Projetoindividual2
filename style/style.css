@@ -4,12 +4,12 @@
     box-sizing: border-box;
     
 }
-/* ------------------------------------------------------- Corpo da pag---/ */
+/* ------------------------------------------------------- para estilizar usei uma imagem de fundo para dar uma avivada na pag e o padding para deixar tudo mais no centro da tela---/ */
 body{
     padding:100px ;
     background-image: url(../imag/imag1.jpg);
 }
-/* ----------------------------------------------------------Cabeçalho-- */
+/* --------------------------------------------------------Aqui eu eslitizei as letras do titulo colocando efeitos para chamar a atenção e arumei a imagem da forma que ficou mais-- */
 header{
   background-color:rgb(73, 132, 151);
   text-align: center;
@@ -31,7 +31,7 @@ img{
     border: solid black;
     border-radius: 5px;
 }
-/* ------------------------------------------------------Formulario-- */
+/* ------------------------------------------------------Formularário foi feito de caixa para que as informações fiquem alinhada, eslizei o botão de enviar de uma forma que ficou com design agradavel-- */
 form{
     background-color:rgb(255, 255, 255) ;
     border: solid black;

@@ -14,23 +14,23 @@
   </head>
 
   <body>
-    <!-- /*------------------------------------------------cabeçalho--*/ -->
+   <!-- /----------------------------------------------------Aqui foi feito o cabeçalho do site ---// -->
     <header>
       <img src="./imag/imag2.jpg" />
       <h1>CONVERSOR DE UNIDADES</h1>
     </header>
-    <!-- /*------------------------------------------------Campo de formulario para conversão de medidas--*/ -->
+    <!-- /*------------------------------------------------Esse aqui é o formulario nele foram feitas as divisões corretas para organizar de forma que as informações fiquem com facil manuseio --*/ -->
     <main>
       <form>
-        <section class=" informacao2">
+        <section class="informacao2">
           <label> Digite um valor para conversão rápida </label>
-          <input id="valorDeEntrada" type="text"> 
+          <input id="valorDeEntrada" type="number" />
         </section>
         <section class="informacao1">
           <label>Selecione uma categoria </label>
         </section>
         <select id="categoria">
-          <option>            </option>
+          <option></option>
           <option value="comprimento">Comprimento</option>
           <option value="peso">Peso</option>
           <option value="temperatura">Temperatura</option>
@@ -40,21 +40,26 @@
           <label> entrada</label>
         </div>
         <select id="entrada">
-          <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp      </option>
+          <option>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          </option>
         </select>
         <div>
           <label> saida</label>
         </div>
         <select id="saida">
-          <option>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</option>
+          <option>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          </option>
         </select>
-        <br/> <br/>
+        <br />
+        <br />
         <section>
           <button id="botao">converter</button>
         </section>
-        <br/>
+        <br />
         <label>Resultado é </label>
-        <span> </span>
+        <span id="resultado"> </span>
       </form>
     </main>
     <script src="./script.js"></script>
