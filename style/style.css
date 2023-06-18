@@ -44,14 +44,15 @@ form{
     
 }
 
-.botao{
+#botao{
     background-color: greenyellow;
     border-color:rgb(25, 75, 25) ;
     border-radius: 10px;
     width: 80px;
     transition: 0.2s;
+    cursor: pointer;
 }
-.botao:hover{
+#botao:hover{
     transform: scale(1.07);
 }
 
