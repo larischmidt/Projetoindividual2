@@ -10,19 +10,19 @@ body{
     background-image: url(../imag/imag1.jpg);
 }
 /* --------------------------------------------------------Aqui eu eslitizei as letras do titulo colocando efeitos para chamar a atenção e arumei a imagem da forma que ficou mais-- */
-header{
-  background-color:rgb(73, 132, 151);
-  text-align: center;
-  border: solid black;
-  font-family: 'Work Sans', sans-serif;
-  width:500px ;
-  margin: auto;
-  color: #171615;
+.cabecalho{
+    background-color:rgb(73, 132, 151);
+    text-align: center;
+    border: solid black;
+    font-family: 'Work Sans', sans-serif;
+    width:500px ;
+    margin: auto;
+    color: #171615;
     text-shadow: 
-             -1px -1px 0px #FFF, 
-             -1px 1px 0px #FFF,      
-              1px -1px 0px #FFF,    
-              1px 0px 0px #FFF;
+    -1px -1px 0px #FFF, 
+    -1px 1px 0px #FFF,      
+    1px -1px 0px #FFF,    
+    1px 0px 0px #FFF;
 }
 
 img{
@@ -32,16 +32,33 @@ img{
     border-radius: 5px;
 }
 /* ------------------------------------------------------Formularário foi feito de caixa para que as informações fiquem alinhada, eslizei o botão de enviar de uma forma que ficou com design agradavel-- */
-form{
+.formulario{
     background-color:rgb(255, 255, 255) ;
     border: solid black;
     text-align: center;
     width:500px ;
-    height:300px ;
+    height:350px ;
     margin: auto;
     padding: 25px;
     font-family: 'Work Sans', sans-serif;
     border-radius: 20px;
+}
+
+.informacao2{
+    margin:5px auto;
+}
+.informacao1{
+    margin:5px auto;
+}
+#categoria{
+    margin:5px auto;
+    
+}
+.tituloEntrada{
+    margin:5px auto;
+}
+.tituloSaida{
+    margin:5px auto;
 }
 
 #botao{
@@ -51,11 +68,9 @@ form{
     width: 80px;
     transition: 0.2s;
     cursor: pointer;
+    margin:10px auto;
 }
 
 #botao:hover{
     transform: scale(1.07);
 }
-
-
-
